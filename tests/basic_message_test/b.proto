@@ -1,0 +1,25 @@
+syntax="proto3";
+
+package basicmessage.packageb;
+
+message TestMessage {
+    bool field_bool = 1;
+
+    int32 field_i32 = 2;
+
+    sint32 field_s32 = 3;
+
+    bytes bytes_field = 4;
+
+    uint32 field_u32 = 5;
+
+    uint64 field_u64 = 6;
+
+    sint64 field_s64 = 7;
+
+    string field_string = 8;
+
+    float field_float = 9;
+
+    double field_double = 10;
+}
